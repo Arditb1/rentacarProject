@@ -1,0 +1,54 @@
+/* admin-layout.css */
+
+.sidebar {
+    width: 250px;
+    background-color: #f1f1f1;
+    float: left;
+}
+
+.main {
+    margin-left: 250px; /* Adjust the margin to match the sidebar width */
+    padding: 20px;
+}
+
+/* bookings.css */
+.bookings-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.booking-card {
+    flex: 0 0 33.33%; /* Adjust the width of each booking card */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+.booking-details {
+    /* Styles for booking details */
+}
+
+.booking-details h2 {
+    /* Styles for booking details heading */
+}
+
+.booking-details p {
+    /* Styles for booking details paragraphs */
+}
+
+.booking-actions {
+    /* Styles for booking actions */
+}
+
+.button {
+    /* Styles for buttons */
+}
+
+.button:hover {
+    /* Styles for button hover state */
+}

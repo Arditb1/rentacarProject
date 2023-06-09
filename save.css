@@ -1,0 +1,622 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: "champ";
+    src: url("fonts/Delm-SemiLight.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "noir";
+    src: url("fonts/NoirPro-SemiBold.otf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "clim";
+    src: url("fonts/Delm-SemiLight.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "bold";
+    src: url("fonts/barlow.regular.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "rubik";
+    src: url("fonts/Rubik-Light.ttf") format("truetype");
+  }
+  
+  .logo img {
+    max-height: 120px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+  
+    /* margin-left: 0px; */
+    width: auto;
+  }
+  
+  
+  nav {
+    /* background-color: black; */
+    height: 40px; /* adjust this value to match the height of your navbar */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: 580px;
+  
+    /* opacity: 0.8; set the opacity value to your preference */
+  }
+  
+  .navbuttons {
+    font-size: 22px;
+    margin-right: 0px;
+    float: none;
+    font-family: "champ", sans-serif;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+  
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .btn {
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    padding: 10px 10px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    padding: 10px 10px;
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .kerri img {
+    position: absolute;
+    height: 310px;
+    width: auto;
+    top: 0;
+    right: 170px;
+    margin-top: 250px;
+    
+  }
+  
+  .teksti img {
+    height: 220px;
+    position: relative;
+    width: auto;
+    margin-left: 310px;
+    margin-top: 220px;
+  }
+  
+  .btn2 {
+    margin-left: 320px;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    padding: 10px 10px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn2:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    padding: 10px 10px;
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .block {
+    height: 140px;
+    width: 280px;
+    background-color: #cccccc35;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .block {
+      height: auto;
+      width: 90%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .cmimi2 {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .day2 {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+    .kerri2 {
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+  
+  .golfi img {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 250px;
+    height: 150px;
+    width: auto;
+  }
+  
+  .cmimi1 {
+    font-family: "champ";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .day1 {
+    font-family: "champ";
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .kerri1 {
+    font-family: "bold";
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .btn3 {
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    margin-top: 2px;
+    margin-left: 38px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn3:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    /* padding: 10px 10px; */
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .cmimi2 {
+    font-family: "champ";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .day2 {
+    font-family: "champ";
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .kerri2 {
+    font-family: "bold";
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .cmimi3 {
+    font-family: "champ";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .day3 {
+    font-family: "champ";
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .kerri3 {
+    font-family: "bold";
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .audi3 img {
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 275px;
+    height: 140px;
+    width: auto;
+  }
+  
+  .btn4 {
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    margin-top: 2px;
+    margin-left: 80px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn4:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    /* padding: 10px 10px; */
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .btn5 {
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    margin-top: 2px;
+    margin-left: 80px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn5:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    /* padding: 10px 10px; */
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .golf7 img {
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 270px;
+    height: 150px;
+    width: auto;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block2 {
+    height: 140px;
+    width: 280px;
+    background-color: #cccccc35;
+    margin: 0 60px;
+    margin-top: 200px;
+    margin-bottom: 40px;
+  }
+  
+  .cmimi4 {
+    font-family: "champ";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .day4 {
+    font-family: "champ";
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .kerri4 {
+    font-family: "bold";
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .cmimi5 {
+    font-family: "champ";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .day5 {
+    font-family: "champ";
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .kerri5 {
+    font-family: "bold";
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .cmimi6 {
+    font-family: "champ";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .day6 {
+    font-family: "champ";
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .kerri6 {
+    font-family: "bold";
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .btn6 {
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    margin-top: 2px;
+    margin-left: 80px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn6:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    /* padding: 10px 10px; */
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .btn7 {
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    margin-top: 2px;
+    margin-left: 80px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn7:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    /* padding: 10px 10px; */
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .btn8 {
+    margin-left: 0px;
+    position: absolute;
+    margin-top: -60px;
+    margin-right: 35px;
+    font-family: "champ", sans-serif;
+    font-weight: 0;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff8000;
+    margin-top: 2px;
+    margin-left: 80px;
+    width: 120px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: 1000ms;
+    transform: translateY(0);
+  }
+  
+  .btn8:hover {
+    text-decoration: none;
+    transition: 1000ms;
+    /* padding: 10px 10px; */
+    transform: translateY(-0px);
+    background-color: #ff8000e2;
+    color: #000000;
+    border: none;
+  }
+  
+  .opel img {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 620px;
+    height: 150px;
+    width: auto;
+  }
+  
+  .skoda img {
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 590px;
+    height: 200px;
+    width: auto;
+  }
+  
+  .tiguan img {
+    position: absolute;
+    margin-left: 1050px;
+    margin-top: 618px;
+    height: 150px;
+    width: auto;
+  }
+  
+  .container3 {
+    margin-top: 150px;
+  }
+  
+  .lista img {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 300px;
+    height: 50px;
+    width: auto;
+  }
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    margin-top: 200px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "champ";
+  }
+  
+  .logo5 img {
+    height: 100px;
+    width: auto;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    font-family: "bold";
+    font-size: 15px;
+  }
+  
+  .address {
+    text-align: center;
+  }
+  
+  .address p {
+    margin: 5px 0;
+    font-size: 15px;
+    font-family: "bold";
+  }
+  
+  .kerri img, .teksti img, .lista img, .skoda img, .tiguan img, .opel img, .golf7 img, .audi3 img, .golfi img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  
+  

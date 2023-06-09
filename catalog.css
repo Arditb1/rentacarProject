@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Overall container styles */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Product card styles */
+  .product-card {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+  }
+  
+  .product-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+  }
+  
+  .product-card p:first-of-type {
+    font-weight: bold;
+  }
+  
+  .product-card p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  /* Optional: Additional styling for responsiveness */
+  @media screen and (max-width: 600px) {
+    .product-card {
+      width: 100%;
+    }
+  }
+  

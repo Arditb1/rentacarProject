@@ -1,0 +1,98 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact img {
+  max-width: 100%;
+  height: auto;
+}
+
+.gruja {
+  max-width: 200px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.office,
+.airport {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.rruga,
+.qyteti,
+.kosovo,
+.qyteti2,
+.nr1,
+.nr2,
+.email1,
+.email2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.contactus {
+  font-size: 30px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
